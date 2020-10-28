@@ -10,9 +10,10 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-process.env.MONGO_URI="mongodb+srv://zaid:CekGAR1aWorIMguq@cluster0.pbpsy.mongodb.net/<dbname>?retryWrites=true&w=majority";
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-app.use(cors());
+console.log("*****Add MONGODB*****")
+console.log("*****Add MONGODB*****")
+console.log("*****Add MONGODB*****")
+console.log("*****Add MONGODB*****")
 
 app.use(bodyParser.urlencoded({extended: false}))
 
